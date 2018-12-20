@@ -1,10 +1,12 @@
-
+html{
+    min-height: 100%;
+}
 
 body{
-    
-    background: url(https://images.unsplash.com/photo-1520932146956-1ee4b33740fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1324&q=80) no-repeat fixed center center;
-    background-size: 100% 100%;
+    background: url(https://images.unsplash.com/photo-1520932146956-1ee4b33740fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1324&q=80) no-repeat;
+    background-position: center center;
     font-family: 'Cuprum', sans-serif;
+    background-size: cover;
     color: white;
 
 }
@@ -38,3 +40,4 @@ hr{
     width: 400px;
     border-color: white;
 }
+
